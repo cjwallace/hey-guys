@@ -4,12 +4,32 @@ from random import choice
 app = Flask(__name__)
 
 names = [
-	'meatbags',
-	'jerks',
-	'punks',
-	'rascals',
+	'abominations',
 	'brigands',
-	'foolish mortals'	
+	'chumps',
+	'dorks',
+	'enemies',
+	'foolish mortals',
+	'goobers',
+	'hobgoblins',
+	'idiots',
+	'jerks',
+	'killjoys',
+	'lollygaggers',
+	'meatbags',
+	'nerds',
+	'oafs',
+	'punks',
+	'quacks',
+	'rustbuckets',
+	'stooges',
+	'twerps',
+	'unwashed masses',
+	'villains',
+	'worms',
+	'xenomorphs',
+	'yuppies',
+	'zombies'
 ]
 
 @app.route('/')
